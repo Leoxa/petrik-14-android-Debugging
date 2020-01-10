@@ -86,6 +86,7 @@ public class Menu extends AppCompatActivity implements View.OnClickListener{
                 Toast.makeText(this, "A neved:" + seged, Toast.LENGTH_SHORT).show();
                 break;
             case R.id.buttonExit:
+                alertDialog.show();
                 break;
             case R.id.buttonNext:
                 Intent next = new Intent(Menu.this,ThirdActivity.class);
