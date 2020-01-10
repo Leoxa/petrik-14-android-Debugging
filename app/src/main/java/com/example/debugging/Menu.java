@@ -73,6 +73,7 @@ public class Menu extends AppCompatActivity implements View.OnClickListener{
         alertDialog = alertDialogBuilder.create();
     }
 
+    
     @Override
     public void onClick(View view) {
         switch(view.getId())
