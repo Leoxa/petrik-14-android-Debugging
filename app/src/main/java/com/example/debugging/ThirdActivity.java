@@ -14,18 +14,17 @@ public class ThirdActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_third);
         init();
         buttonBack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                finish();
+                setContentView(R.layout.activity_third);finish();
             }
         });
     }
 
     public void init()
     {
-        buttonBack = findViewById(R.id.buttonExit);
+        buttonBack = findViewById(R.id.buttonBack);
     }
 }
